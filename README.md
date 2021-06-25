@@ -18,3 +18,18 @@
 - babel-plugin-module-resolver
 - yarn add --dev babel-plugin-module-resolver
 - 配置babel.config.js， 配置模块名，根目录，目录对应写法
+
+### 4. 导航器
+
+- 官网： https://reactnavigation.org
+- yarn add @react-navigation/native
+- 原始项目 bare project，安装依赖
+- yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```js
+react-native-reanimated 动画库
+react-native-gesture-handler 手势库
+react-native-screens 用安卓和ios原生代码实现容器，提高导航性能
+react-native-safe-area-context 异形屏的安全区域
+react-native-community/masked-view 堆栈导航器依赖的库
+```
+- 然后ios链接库，android加配置代码
