@@ -32,4 +32,5 @@ react-native-screens 用安卓和ios原生代码实现容器，提高导航性�
 react-native-safe-area-context 异形屏的安全区域
 react-native-community/masked-view 堆栈导航器依赖的库
 ```
+- react-native-gesture-handler 手势库的安卓加配置
 - 然后ios链接库，android加配置代码
