@@ -50,4 +50,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 // createStackNavigator 返回包含两个属性的对象的函数 Navigator（导航器） 和 Screen（界面）
 // Navigator 的 screenOptions 配置属性  headerTitleAlign 标题位置，headerTitle 标题名字
 // Screen 的 options 配置属性
+
+import { StackNavigationProp } from '@react-navigation/stack';
+// StackNavigationProp 页面跳转
 ```
