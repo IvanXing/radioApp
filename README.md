@@ -54,3 +54,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { StackNavigationProp } from '@react-navigation/stack';
 // StackNavigationProp 页面跳转
 ```
+
+#### 4.2 底部标签导航器
+
+- yarn add @react-navigation/bottom-tabs
+
+- 标签导航 内 嵌套 堆栈导航
+- 堆栈导航 内 嵌套 标签导航
