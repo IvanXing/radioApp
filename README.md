@@ -18,8 +18,11 @@
 - babel-plugin-module-resolver
 - yarn add --dev babel-plugin-module-resolver
 - 配置babel.config.js， 配置模块名，根目录，目录对应写法
+- 配置tsconfig.json，配置baseUrl以及path
 
 ### 4. 导航器
+
+- 导航器做了细分
 
 - 官网： https://reactnavigation.org
 - yarn add @react-navigation/native
@@ -34,3 +37,17 @@ react-native-community/masked-view 堆栈导航器依赖的库
 ```
 - react-native-gesture-handler 手势库的安卓加配置
 - 然后ios链接库，android加配置代码
+
+
+#### 4.1 堆栈式导航器
+
+- yarn add @react-navigation/stack
+```js
+import { NavigationContainer } from '@react-navigation/native';
+//NavigationContainer 管理整个导航树，并包含导航状态，所有导航器必须放在其中
+
+import { createStackNavigator } from '@react-navigation/stack';
+// createStackNavigator 返回包含两个属性的对象的函数 Navigator（导航器） 和 Screen（界面）
+// Navigator 的 screenOptions 配置属性  headerTitleAlign 标题位置，headerTitle 标题名字
+// Screen 的 options 配置属性
+```
