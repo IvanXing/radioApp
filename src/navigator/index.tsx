@@ -6,11 +6,12 @@ import {
   HeaderStyleInterpolators,
   CardStyleInterpolators,
  } from '@react-navigation/stack';
-import Home from '@/pages/Home';
+// import Home from '@/pages/Home';
+import BottomTabs from './BottomTabs'
 import Detail from '@/pages/Detail';
 
 export type RootStackParamList = {
-  Home: undefined;
+  BottomTabs: undefined;
   Detail: {id: number};  //详情页传参
 }
 
@@ -37,8 +38,8 @@ class Navigator extends React.Component {
               headerTitleAlign: 'center',
               headerTitle: '首页'
             }} 
-            name="Home" 
-            component={Home} />
+            name="BottomTabs" 
+            component={BottomTabs} />
           <Stack.Screen name="Detail" component={Detail} />
         </Stack.Navigator>
       </NavigationContainer>

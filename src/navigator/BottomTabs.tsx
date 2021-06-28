@@ -18,7 +18,7 @@ const Tab = createBottomTabNavigator<BottomTabParamList>();
 class BottomTabs extends React.Component {
   render() {
     return (
-      <NavigationContainer>
+      // <NavigationContainer>
       <Tab.Navigator tabBarOptions={{activeTintColor: '#e84e40'}}>
         <Tab.Screen
           name="Home"
@@ -41,7 +41,7 @@ class BottomTabs extends React.Component {
           options={{tabBarLabel: '我的'}}
         />
       </Tab.Navigator>
-       </NavigationContainer>
+      //  </NavigationContainer>
     );
   }
 }

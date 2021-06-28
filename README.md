@@ -59,5 +59,5 @@ import { StackNavigationProp } from '@react-navigation/stack';
 
 - yarn add @react-navigation/bottom-tabs
 
-- 标签导航 内 嵌套 堆栈导航
-- 堆栈导航 内 嵌套 标签导航
+- 标签导航 内 嵌套 堆栈导航，这种方式底部标签不会消失
+- 堆栈导航 的第一个页面 嵌套 标签导航，这种方式跳转别的页面底部标签会隐藏（选此种）
